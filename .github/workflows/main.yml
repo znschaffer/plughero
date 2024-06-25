@@ -12,5 +12,5 @@ jobs:
         with:
           spec: 'main.py'
           requirements: 'requirements.txt'
-          upload_exe_with_name: 'Plug Hero'
+          upload_exe_with_name: 'Plug Hero ${{ matrix.os }}'
           options: --onefile, --name "Plug Hero", --windowed
